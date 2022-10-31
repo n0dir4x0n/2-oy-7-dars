@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body {
+  background-color: #5093f6;
+}
+h2 {
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+  color: rgba(0, 0, 255, 0.477);
+  margin-top: 100px;
+  border: 2px solid bisque;
+  border-radius: 20px;
+  width: 500px;
+  margin-left: 400px;
+  background-color: aliceblue;
+}
+.finger .finger2,
+.finger .finger3,
+.finger .finger4,
+.finger .finger5 {
+  border-radius: 20px;
+  background-color: white;
+  margin-left: 4px;
+}
+
+.finger .finger2 .chiziq1,
+.finger .finger2 .chiziq,
+.finger .finger3 .chiziq1,
+.finger .finger3 .chiziq,
+.finger .finger4 .chiziq1,
+.finger .finger4 .chiziq,
+.finger .finger5 .chiziq1,
+.finger .finger5 .chiziq {
+  width: 30px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #5093f6;
+}
+
+.finger .finger2 .nail,
+.finger .finger3 .nail,
+.finger .finger4 .nail,
+.finger .finger5 .nail {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px 50px 20px 20px;
+  background-color: #5093f6;
+  margin-left: 5px;
+}
+
+.finger {
+  display: flex;
+  width: 800px;
+  height: 500px;
+  margin: 60px auto;
+  justify-content: center;
+  align-items: center;
+}
+.finger .finger5 {
+  width: 50px;
+  height: 130px;
+  animation-name: finger5;
+  animation-duration: 0.49s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.finger .finger5 .chiziq {
+  margin: 10px auto;
+}
+.finger .finger5 .chiziq1 {
+  margin: 5px auto;
+}
+.finger .finger5 .nail {
+  margin-top: 55px;
+}
+.finger .finger4 {
+  width: 50px;
+  height: 150px;
+  animation-name: finger4;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+}
+.finger .finger4 .chiziq {
+  margin: 10px auto;
+}
+.finger .finger4 .chiziq1 {
+  margin: 5px auto;
+}
+.finger .finger4 .nail {
+  margin-top: 72px;
+}
+.finger .finger3 {
+  width: 50px;
+  height: 170px;
+  animation-name: finger3;
+  animation-duration: 0.51s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+}
+.finger .finger3 .chiziq {
+  margin: 10px auto;
+}
+.finger .finger3 .chiziq1 {
+  margin: 5px auto;
+}
+.finger .finger3 .nail {
+  margin-top: 90px;
+}
+.finger .finger2 {
+  width: 50px;
+  height: 140px;
+  animation-name: finger2;
+  animation-duration: 0.52s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+}
+.finger .finger2 .chiziq {
+  margin: 10px auto;
+}
+.finger .finger2 .chiziq1 {
+  margin: 5px auto;
+}
+.finger .finger2 .nail {
+  margin-top: 65px;
+}
+.finger .finger1 {
+  width: 80px;
+  height: 60px;
+  background-color: white;
+  margin-left: 5px;
+  border-radius: 0px 30px 80px 0px;
+  position: relative;
+  animation-name: bosh-barmoq;
+  animation-duration: 0.53s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+}
+
+@keyframes finger5 {
+  to {
+    transform: rotateX(0deg) translateY(0px);
+  }
+  from {
+    transform: rotateX(40deg) translateY(-40px);
+  }
+}
+
+@keyframes finger5 {
+  to {
+    transform: rotateX(0deg) translateY(0px);
+  }
+  from {
+    transform: rotateX(40deg) translateY(-40px);
+  }
+}
+@keyframes finger4 {
+  to {
+    transform: translateY(0px) rotateX(0deg);
+  }
+  from {
+    transform: translateY(-40px) rotateX(40deg);
+  }
+}
+@keyframes finger4 {
+  to {
+    transform: translateY(0px) rotateX(0deg);
+  }
+  from {
+    transform: translateY(-40px) rotateX(40deg);
+  }
+}
+@keyframes finger3 {
+  to {
+    transform: translateY(0px) rotateX(0deg);
+  }
+  from {
+    transform: translateY(-40px) rotateX(40deg);
+  }
+}
+@keyframes finger3 {
+  to {
+    transform: translateY(0px) rotateX(0deg);
+  }
+  from {
+    transform: translateY(-40px) rotateX(40deg);
+  }
+}
+@keyframes finger2 {
+  to {
+    transform: translateY(0px) rotateX(0deg);
+  }
+  from {
+    transform: translateY(-40px) rotateX(40deg);
+  }
+}
+@keyframes finger2 {
+  to {
+    transform: translateY(0px) rotateX(0deg);
+  }
+  from {
+    transform: translateY(-40px) rotateX(40deg);
+  }
+}
+@keyframes finger1 {
+  to {
+    transform: translateY(0px) rotateX(0deg);
+  }
+  from {
+    transform: translateY(-10px) rotateX(40deg);
+  }
+}
+@keyframes finger1 {
+  to {
+    transform: translateY(0px) rotateX(0deg);
+  }
+  from {
+    transform: translateY(-10px) rotateX(40deg);
+  }
+}
